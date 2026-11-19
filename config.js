@@ -2,5 +2,5 @@
 // 2) Paste its URL ending in /exec between the quotation marks below.
 // Do NOT put credentials, passwords or spreadsheet edit links here.
 window.GNYO_CONFIG = {
-  appScriptUrl: "PASTE_APPS_SCRIPT_EXEC_URL_HERE"
+  appScriptUrl: "https://script.google.com/macros/s/AKfycbzH9pUQ0f6KlghdwgDkvDGQGYyZ5nFG_c481c6l5UQ5LeXHUAulppoSIyy5wvQSDwY/exec"
 };
