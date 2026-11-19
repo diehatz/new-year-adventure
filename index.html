@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10192a">
+  <meta name="description" content="Global New Year Operations — two-day collaborative story pilot.">
+  <title>GNYO — Technical Pilot</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="background-stars" aria-hidden="true"></div>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand"><div class="brand-icon">✦</div><div><span class="brand-name">GLOBAL NEW YEAR OPERATIONS</span><span class="brand-sub" id="topSubtitle">TECHNICAL PILOT / THE UNTRAINED YEAR</span></div></div>
+      <div class="header-actions">
+        <span class="status-pill" id="connection">● …</span>
+        <div class="lang-toggle" role="group" aria-label="Language"><button id="lang-ru" type="button">RU</button><button id="lang-en" type="button">EN</button></div>
+      </div>
+    </header>
+    <main id="app"><section class="panel loading"><div class="loading-icon">✧</div><h1>Global New Year Operations</h1><p>Инициализация тестовой операции...</p></section></main>
+    <footer><span>✧ A GNYO TECHNICAL PROOF OF CONCEPT</span><span id="footerNotice">TEST DATA ONLY · NO PERSONAL INFORMATION</span></footer>
+  </div>
+  <iframe name="gnyo-hidden-post-target" id="gnyo-hidden-post-target" title="Background result transfer" class="hidden-frame"></iframe>
+</body>
+</html>
